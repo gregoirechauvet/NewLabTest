@@ -1,0 +1,37 @@
+{
+  "name": "lab",
+  "version": "2.0.0-beta",
+  "description": "Leto's Lab",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c && cp src/index.html dist",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-Leto/Letos-Lab.git"
+  },
+  "author": "Grégoire Chauvet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prince-Leto/Letos-Lab/issues"
+  },
+  "homepage": "https://github.com/Prince-Leto/Letos-Lab#readme",
+  "dependencies": {
+    "@material/button": "^2.0.0",
+    "@material/card": "^2.0.0",
+    "@material/checkbox": "^2.1.0",
+    "@material/drawer": "^2.0.0",
+    "@material/form-field": "^2.0.0",
+    "@material/select": "^2.0.0",
+    "@material/textfield": "^2.1.0",
+    "@material/top-app-bar": "^2.1.0",
+    "@material/typography": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.18.0",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "typescript": "^3.5.3"
+  }
+}
